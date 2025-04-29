@@ -1,6 +1,6 @@
-# avans museum angular api
+# Musea API
 
-API for the Musea website project for Avans
+Express.js backend project code from the client-side frameworks project of Avans Hogeschool year 2 (2022). Originally hosted on GitLab.
 
 ## Getting started
 
