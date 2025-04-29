@@ -1,0 +1,42 @@
+{
+    "name": "avans-museum-angular-api",
+    "version": "1.0.0",
+    "description": "Musea API",
+    "main": "server.js",
+    "scripts": {
+        "test": "mocha --timeout 30000 --watch \"./**/*spec.js\" --reporter min",
+        "start": "node server.js",
+        "start-dev": "nodemon server.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+ssh://git@gitlab.com/stefandenijs/avans-museum-angular-api.git"
+    },
+    "keywords": [
+        "API"
+    ],
+    "author": "Stefan de Nijs",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://gitlab.com/stefandenijs/avans-museum-angular-api/issues"
+    },
+    "homepage": "https://gitlab.com/stefandenijs/avans-museum-angular-api#readme",
+    "dependencies": {
+        "bcrypt": "^5.0.1",
+        "chai-as-promised": "^7.1.1",
+        "cors": "^2.8.5",
+        "dotenv": "^10.0.0",
+        "express": "^4.17.1",
+        "express-async-errors": "^3.1.1",
+        "jsonwebtoken": "^8.5.1",
+        "mongoose": "^6.0.13",
+        "mongoose-autopopulate": "^0.16.0",
+        "neo4j-driver": "^4.4.1"
+    },
+    "devDependencies": {
+        "chai": "^4.3.4",
+        "chai-http": "^4.3.0",
+        "mocha": "^9.1.3",
+        "nodemon": "^2.0.15"
+    }
+}
